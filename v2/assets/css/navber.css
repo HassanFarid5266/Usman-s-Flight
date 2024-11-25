@@ -44,7 +44,7 @@
 }
 
 .topbar-list li a:hover {
-    color: #000;
+    color: var(--main-color);
 }
 .topbar-list li i {
     color: var(--white-color);
@@ -89,7 +89,7 @@
 }
 
 .topbar-others-options li a:hover {
-    color: #000 !important;
+    color: var(--main-color) !important;
 }
 
 .topbar-others-options li .language-option {
@@ -109,7 +109,7 @@
 }
 
 .topbar-others-options li .language-option button:hover {
-    color: #000;
+    color: var(--main-color);
 }
 
 .topbar-others-options li .language-option button::after {

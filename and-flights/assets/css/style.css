@@ -199,7 +199,7 @@ section {
     box-shadow: none;
 }
 
-.section_padding {
+/* .section_padding {
     padding: 100px 0;
 }
 
@@ -209,7 +209,7 @@ section {
 
 .section_padding_bottom {
     padding: 0 0 100px 0;
-}
+} */
 
 /* --Heading Area-- */
 

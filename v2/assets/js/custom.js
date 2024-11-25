@@ -649,6 +649,35 @@
                 }
             }
         });
+
+         // home special_offer
+         $('.special_offer').owlCarousel({
+            loop: true,
+            dots: true,
+            autoplayHoverPause: true,
+            autoplay: true,
+            smartSpeed: 600,
+            margin: 30,
+            nav: false,
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                768: {
+                    items: 2,
+                },
+                992: {
+                    items: 2,
+                },
+                1399: {
+                    items: 3
+                },
+                1400: {
+                    items: 3
+                }
+            }
+        });
+
     // home ten immigration_slider
         $('.immigration_slider_wrapper').owlCarousel({
             loop: true,
